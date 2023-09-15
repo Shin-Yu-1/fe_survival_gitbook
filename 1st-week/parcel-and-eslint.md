@@ -1,5 +1,5 @@
 ---
-description: 1분 1초가 아깝다면 삶의 질 상승 도구를 활용하자!
+description: 환경설정, 마지막 이야기
 ---
 
 # Parcel & ESLint
@@ -33,7 +33,6 @@ Parcel, Vite 등 다양하게 존재함. 취향껏 골라서 쓰면 됨.
 ```
 // .vscode/setting.json
 
-json
 {   
     "editor.rulers": [
         80
