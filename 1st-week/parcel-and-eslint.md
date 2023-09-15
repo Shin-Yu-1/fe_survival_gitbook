@@ -1,3 +1,7 @@
+---
+description: 1분 1초가 아깝다면 삶의 질 상승 도구를 활용하자!
+---
+
 # Parcel & ESLint
 
 ### Bundler(번들러)
