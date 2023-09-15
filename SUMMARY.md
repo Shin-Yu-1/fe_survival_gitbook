@@ -6,3 +6,4 @@
   * [Typescript](1st-week/typescript.md)
   * [React](1st-week/react.md)
   * [Testing Library](1st-week/testing-library.md)
+  * [Parcel & ESLint](1st-week/parcel-and-eslint.md)
