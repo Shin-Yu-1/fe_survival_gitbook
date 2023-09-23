@@ -35,7 +35,7 @@ description: 가상의 돔에서 바뀔 부분만 바뀌도록 해줘서 비용 
 * Virtual Dom
   * 메모리 내에 존재하는 자바스크립트 객체
   * 실제 DOM의 변경을 최소화하여 성능을 향상
-  * irtual DOM은 실제 DOM을 직접 조작하지 않기 때문에 빠른 연산이 가능
+  * Virtual DOM은 실제 DOM을 직접 조작하지 않기 때문에 빠른 연산이 가능
   * 변경 사항이 발생하면, 새로운 Virtual DOM 트리를 생성
   * 이전의 Virtual DOM 트리와 새로운 Virtual DOM 트리를 비교하여 변경된 부분만을 실제 DOM에 반영
     * 참고 - 이전의 Virtual DOM 트리와 새로운 Virtual DOM 트리를 비교하는 과정을 "diffing" 또는 "reconciliation"이라고 함.
@@ -46,5 +46,6 @@ description: 가상의 돔에서 바뀔 부분만 바뀌도록 해줘서 비용 
 
 * state 또는 props가 변경될 때 마다 최소한의 변경만 DOM에 반영하기 위한 알고리즘
 * React Component의 state(상태)나 속성(props)이 변경될 때마다 새로운 Virtual DOM 트리가 생성되는데 이전의 트리와 생성된 트리를 비교하게 됨. 이 비교하는 과정을 의미함.
-*
+
+
 
