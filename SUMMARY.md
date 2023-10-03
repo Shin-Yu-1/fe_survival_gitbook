@@ -10,3 +10,5 @@
 * [2nd Week](2nd-week/README.md)
   * [JSX](2nd-week/jsx.md)
   * [VDOM(Virtual DOM)](2nd-week/vdom-virtual-dom.md)
+* [3rd Week](3rd-week/README.md)
+  * [React Component](3rd-week/react-component.md)
