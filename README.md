@@ -96,6 +96,11 @@ npx eslint --init
 
 실행되면 원하는대로 설정해주기
 
+* [ ] To check syntax, find problems, and enforce code style
+* [ ] JavaScript modules (import/export)
+
+
+
 3. eslint ignore file 필요하면 추가
 
 ```
@@ -150,9 +155,8 @@ npm i -D jest @types/jest @swc/core @swc/jest \
 
 * 파일 생성
 
-```
-touch jest.config.js
-```
+<pre><code><strong>touch jest.config.js
+</strong></code></pre>
 
 * 내용 추가(복사&붙여넣기 하면 편-안)
 
