@@ -1,0 +1,11 @@
+# External Store
+
+#### 관심사의 분리
+
+#### Layered Architecture
+
+#### Flux Architecture
+
+#### useReducer
+
+#### useCallback
