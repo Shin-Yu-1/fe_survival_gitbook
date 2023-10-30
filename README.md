@@ -96,8 +96,16 @@ npx eslint --init
 
 실행되면 원하는대로 설정해주기
 
-* [ ] To check syntax, find problems, and enforce code style
-* [ ] JavaScript modules (import/export)
+* [ ] To check systax, find problems, and enforece code style
+* [ ] JavaScript modules(import/export)
+* [ ] react
+* [ ] Yes
+* [ ] browser
+* [ ] Use a popular style guide
+* [ ] XO
+* [ ] JavaScript
+* [ ] Yes
+* [ ] npm
 
 
 
