@@ -32,3 +32,4 @@
 * [Week 7](week-7/README.md)
   * [Routing](week-7/routing.md)
   * [Routes](week-7/routes.md)
+  * [Router](week-7/router.md)
