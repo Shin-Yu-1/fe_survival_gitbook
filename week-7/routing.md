@@ -1,3 +1,7 @@
+---
+description: 웹 애플리케이션에서 사용자의 요청(URL)을 특정 엔드포인트나 컴포넌트와 연결하는 과정
+---
+
 # Routing
 
 #### HTML DOM API
@@ -14,7 +18,8 @@ HTML DOM (Document Object Model) API란, 웹 브라우저가 HTML 문서를 조�
 *   pathname
 
     ```javascript
-    window.location
+    window.location.pathname
+    // ex) https://fe-servival.gitbook.io/megatera/ => /megatera/' 출력됨
     ```
 
     * 웹 페이지의 URL에서 도메인 이름 다음에 오는 부분

@@ -181,15 +181,23 @@ npx eslint --init
 
 #### React
 
-1. 리액트 설치
+1.  리액트 설치
 
-```
-npm i react react-dom
+    ```
+    npm i react react-dom
 
-npm i -D @types/react @types/react-dom
-```
+    npm i -D @types/react @types/react-dom
+    ```
 
-이걸 한다해서 전부 수정해주진 않음
+    이걸 한다해서 전부 수정해주진 않음
+2.  리액트 라우터 설치
+
+    ```
+    npm i react-router-dom
+    ```
+3.
+
+
 
 ***
 
