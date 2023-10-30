@@ -109,27 +109,73 @@ npx eslint --init
 
 
 
-3. eslint ignore file 필요하면 추가
+3.  eslint ignore file 필요하면 추가
 
-```
-touch .eslintignore
-```
+    ```
+    touch .eslintignore
 
-.gitignore와 작성방법 동일함. 파일 내 필요한 것들 작성
+    // .gitignore와 작성방법 동일함. 파일 내 필요한 것들 작성
+    ```
+4.  저장할 때 마다 설정된 값에 알아서 변경 되도록 설정하기 \*\* [ESlint](https://eslint.org/) extention 설치 \*\* .vscode 폴더 생성 \*\* 폴더 내 setting.json 생성 및 내용 작성
 
-3. 저장할 때 마다 설정된 값에 알아서 변경 되도록 설정하기 \*\* [ESlint](https://eslint.org/) extention 설치 \*\* .vscode 폴더 생성 \*\* 폴더 내 setting.json 생성 및 내용 작성
+    ```
+    {   
+        "editor.rulers": [
+            80
+        ],
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true 
+        },
+        "trailing-spaces.trimOnSave": true
+    }
+    ```
+5.  eslintrc.js 파일 내용 일부 수정
 
-```
-{   
-    "editor.rulers": [
-        80
-    ],
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true 
-    },
-    "trailing-spaces.trimOnSave": true
-}
-```
+    ```
+    module.exports = {
+    	env: {
+    		browser: true,
+    		es2021: true,
+    		jest: true,
+    	},
+    	extends: [
+    		'xo',
+    		'plugin:react/recommended',
+    		'plugin:react/jsx-runtime',
+    	],
+    	overrides: [
+    		{
+    			env: {
+    				node: true,
+    			},
+    			files: [
+    				'.eslintrc.{js,cjs}',
+    			],
+    			parserOptions: {
+    				sourceType: 'script',
+    			},
+    		},
+    		{
+    			extends: [
+    				'xo-typescript',
+    			],
+    			files: [
+    				'*.ts',
+    				'*.tsx',
+    			],
+    		},
+    	],
+    	parserOptions: {
+    		ecmaVersion: 'latest',
+    		sourceType: 'module',
+    	},
+    	plugins: [
+    		'react',
+    	],
+    	rules: {
+    	},
+    };
+    ```
 
 ***
 
