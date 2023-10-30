@@ -1,5 +1,5 @@
 ---
-description: Welcome
+description: 어서 와, 이런 환경은 처음이지?
 ---
 
 # WELCOME
