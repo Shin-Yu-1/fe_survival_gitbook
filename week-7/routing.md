@@ -12,8 +12,12 @@ HTML DOM (Document Object Model) API란, 웹 브라우저가 HTML 문서를 조�
 
     ```javascript
     window.location
+
+    // ex) https://fe-servival.gitbook.io/megatera/ 
+    // => Location {ancestorOrigins: DOMStringList, href: 'https://fe-servival.gitbook.io/megatera/', origin: 'https://fe-servival.gitbook.io', protocol: 'https:', host: 'fe-servival.gitbook.io', …} 출력됨
     ```
 
+    * 현재 문서의 URL을 나타내고, 현재 문서와 관련된 다양한 작업을 수행할 수 있는 방법을 제공하는 객체임.
     * 페이지를 리다이렉트하거나, URL의 구성 요소에 접근하거나, 새로고침하는 등의 작업을 수행함.
 *   pathname
 
