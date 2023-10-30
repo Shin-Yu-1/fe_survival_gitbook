@@ -31,3 +31,4 @@
   * [usestore-ts](week-6/usestore-ts.md)
 * [Week 7](week-7/README.md)
   * [Routing](week-7/routing.md)
+  * [Routes](week-7/routes.md)
