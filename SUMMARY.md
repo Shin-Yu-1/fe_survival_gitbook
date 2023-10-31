@@ -33,3 +33,4 @@
   * [Routing](week-7.-react-router/routing.md)
   * [Routes](week-7.-react-router/routes.md)
   * [Router](week-7.-react-router/router.md)
+  * [Navigation](week-7.-react-router/navigation.md)
