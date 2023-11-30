@@ -2,7 +2,7 @@
 description: https://react-ko.dev/learn
 ---
 
-# Week 9. 리액트 공식문서 정리
+# Week 9
 
 #### 컴포넌트를 만들고 중첩하는 방법
 

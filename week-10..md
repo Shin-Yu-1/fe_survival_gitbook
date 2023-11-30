@@ -2,7 +2,7 @@
 description: https://react-ko.dev/learn/your-first-component
 ---
 
-# Week 10. 리액트 공식문서 정리
+# Week 10
 
 #### React Componenet란?
 
