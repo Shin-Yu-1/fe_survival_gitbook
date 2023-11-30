@@ -41,5 +41,6 @@
   * [styled-components](week-8.-css-in-js/styled-components.md)
   * [props와 attrs](week-8.-css-in-js/props-attrs.md)
   * [Global Style & Theme](week-8.-css-in-js/global-style-and-theme.md)
-* [Week 9. 리액트 공식문서 정리](week-9..md)
-* [Week 10. 리액트 공식문서 정리](week-10..md)
+* [Week 9](week-9.md)
+* [Week 10](week-10.md)
+* [Week 11](week-11.md)
